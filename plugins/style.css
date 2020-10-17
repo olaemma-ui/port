@@ -32,10 +32,7 @@ body{
     border-bottom: solid green;
     font-size: medium;
 }
-#img{
-    filter: grayscale(1);
-    
-}
+
 .text{
     font-size: smaller;
     display: block;
