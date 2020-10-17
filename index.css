@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;   
+    background-image: url(img/Trafic.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.nav-link{
+    color: white;
+}
+.close{
+    float: right;
+}
+.cont{
+    background: rgba(0, 0, 0, 0.886);   
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.619);
+}
+.nav-item .ic{
+    color: white;
+    /* font-weight: bolder; */
+    padding: 6px 14px;
+  }
+.under_line{
+    border-bottom: solid green;
+    font-size: medium;
+}
+#img{
+    filter: grayscale(1);
+    
+}
+.text{
+    font-size: smaller;
+    display: block;
+}
+.name{
+    font-size: 7vmin;
+}
+.col-md-7{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.col-md-5{
+    padding: 20px;
+}
+.col-md-7 strong{
+    display: block;
+    margin-top: 15px;
+}
+.icon{
+    background-color: rgba(18, 17, 17, 0.948);
+    padding: 10px;
+    border-radius: 250px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.icon i {
+    color: white;
+}
+.icon:hover{
+    background-color: green;
+}
+.ic:hover{
+    border-bottom: solid rgb(18, 116, 18) 1px;
+}
+.fa-2x{
+    font-size: large;
+}
+@media  screen and (max-width: 700px){
+    .navbar-expand-md{
+        display: none;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 700px){
+    .menu{
+        display: none;
+        position: absolute;
+    }
+}
+.modal-header{
+    border-bottom: none;
+}

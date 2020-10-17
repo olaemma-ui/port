@@ -1,0 +1,75 @@
+#from-top{
+    animation-name: from-top;
+    animation-duration: 2s;
+}
+#from-left{
+    animation-name: from-left;
+    animation-duration: 2s;
+}
+#from-right{
+    animation-name: from-right;
+    animation-duration: 2s;
+}
+#from-bottom{
+    animation-name: from-bottom;
+    animation-duration: 2s;
+}
+#rotate{
+    animation-name: rotate;
+    animation-duration: 2s;
+}
+#resize-rotate{
+    animation-name: resize-rotate;
+    animation-duration: 2s;
+}
+#card-back{
+    transform: rotateY(90deg);
+}
+#card-front {
+    position: absolute;
+}
+.flip:hover #card-front{
+    animation-name: flip;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards; 
+}
+.flip:hover #card-back{
+    animation-name: flip;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+}
+
+
+/* Keyframes Effect Animation */
+    @keyframes from-top {
+        from{ transform: translatey(-1000px);}
+        to{ transform: translatey(0);}
+    }
+    @keyframes from-left {
+        from{ transform: translateX(-1000px);}
+        to{ transform: translateX(0);}
+    }
+    @keyframes from-right {
+        from{ transform: translateX(1000px);}
+        to{ transform: translateX(0);}
+    }
+    @keyframes from-bottom {
+        from{ transform: translatey(1000px);}
+        to{ transform: translatey(0);}
+    }
+    @keyframes rotate {
+        from{ transform: rotate(0);}
+        to{ transform: rotate(360deg);}
+    }
+    @keyframes resize-rotate {
+        from{ transform: scale(-0.5) rotate(360deg);}
+        to{ transform: scale(1) rotate(0);}
+    }
+    @keyframes flip {
+        from {transform: rotateY(0);}
+        to{transform: rotateY(90deg);}
+    }
