@@ -67,7 +67,7 @@ body{
     color: white;
 }
 .icon:hover{
-    background-color: green;
+    background-color: rgb(39, 116, 39);
 }
 .ic:hover{
     border-bottom: solid rgb(18, 116, 18) 1px;
@@ -89,4 +89,11 @@ body{
 }
 .modal-header{
     border-bottom: none;
+}
+.line{
+    display: inline-block;
+    width: 15vmax;
+    height: 2px;
+    /* padding: 3px; */
+    background-color: green;
 }
