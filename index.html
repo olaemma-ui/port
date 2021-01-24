@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/fontawesome-free-5.14.0-web/css/all.min.css">
-    <link rel="stylesheet" href="plugins/style.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ola Emma</title>
+        <link rel="stylesheet" href="plugins/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="plugins/fontawesome-free-5.12.1-web/css/all.min.css" />
+        <link rel="stylesheet" href="plugins/style.css" />
 
-    <link rel="stylesheet" href="plugins/aos/aos.css">
-</head>
-<body>
+        <link rel="stylesheet" href="plugins/aos/aos.css" />
+        <link rel="shortcut icon" href="plugins/img/IMG_2841.JPG" type="image/x-icon">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="100">
+        <nav class="navbar navbar-expand-md justify-content-center sticky-top navbar-dark" id="menu-bg">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link ic"> HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#About" class="nav-link ic"> ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link ic"> SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link ic"> SERVICES </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#home" class="nav-link ic"> CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cont pb-5">
+            <div class="container text-light">
+                <!-- Navbar Button Bars -->
+                <nav class="navbar bg navbar-expand-xl justify-content-end fixed-top menu" id="mobile-nav">
+                    <h1 class="nav-name navbar-brand">
+                        <a href="index.html"> Tejumola Emmanuel.O </a>
+                    </h1>
+                    <button class="btn btn-dark float-right mt-3 bg menu-bg" data-toggle="modal" data-target="#popup-menu">
+                        <i class="fas fa-bars text-light"></i>
+                    </button>
+                </nav>
 
-    <div class="cont">
-        <div class="container text-light mt-4">
-
-            <!-- Navbar Button Bars -->
-           <nav class="navbar navbar-expand-xl justify-content-end fixed-top">
-            <button class="btn btn-dark float-right mt-3 bg menu" data-toggle="modal" data-target="#menu">
-                <i class="fas fa-bars text-light"></i>
-            </button>
-           </nav>
-
-            <div class="row">
-                <div class="col-md-7 text-left" data-aos="slide-right" data-aos-delay="200"> 
-
+                <div class="row" id="home">
+                    <div class="col-md-7 text-left" data-aos="slide-right" data-aos-delay="200">
                         <h1 class="name" data-aos="zoom-in">
                             Tejumola Emmanuel.O
                         </h1>
                         <small class="text text-left">I'm a passionate <b class="under_line"> Frontend Web Developer</b> from Nigeria </small>
-                        
+
                         <!-- Navbar  -->
-                        <nav class="navbar navbar-expand-md mt-4">
-                            <ul class="nav"> 
-                                <li class="nav-item">
-                                    <a href="#home" class="nav-link ic"> HOME</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#about" class="nav-link ic"> ABOUT</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#home" class="nav-link ic"> HIRE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#home" class="nav-link ic"> RESUME</a>
-                                </li>
-                                <li class="nav-item mb-4">
-                                    <a href="#home" class="nav-link ic"> HIRE </a>
-                                </li>
-                                <li class="nav-item mb-4">
-                                    <a href="#home" class="nav-link ic"> CONTACT</a>
-                                </li>
-                            </ul>
-                        </nav>
+                        
 
                         <!-- Download/E-mail Button -->
                         <button class="btn btn-dark mt-3" data-aos="zoom-in" data-aos-delay="1000">
-                           <a href="#" class="text-light"> Download Resume <i class="fas fa-download"></i></a>
+                            <a href="#" class="text-light"> Download Resume <i class="fas fa-download"></i></a>
                         </button>
                         <button class="btn btn-success mt-3" data-aos="zoom-out" data-aos-delay="1500">
                             <a href="#" class="text-light"><i class="fas fa-envelope"></i> </a>
@@ -77,77 +76,314 @@
                             </a>
 
                             <a href="#" class="nav-link icon">
-                                <i class="fab fa-linkedin  fa-2x"></i>
+                                <i class="fab fa-linkedin fa-2x"></i>
                             </a>
 
                             <a href="#" class="nav-link icon">
                                 <i class="fab fa-github fa-2x"></i>
                             </a>
                         </strong>
-                </div>
-                <div class="col-md-5" class="mx-auto" id="img">
-                    <img src="img/IMG_2841.JPG"  data-aos="fade-left" data-aos-delay="700" width="100%" alt="">
-                </div> 
-            </div>
-        </div>
-        <div class="container">
-            <p class="text-light">ABOUT <span class="line"></span> </p>
-            <h3 class="text-light">LEARN MORE ABOUT ME </h3>
-
-            <div class="row">
-                .col-    
-            </div>
-        </div>
-    </div>
-    <div class="modal bg" id="menu">
-        <div class="modal-dialog bg">
-            <div class="modal-content bg">
-                <div class="modal-header bg">
-                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body bg">
-                    <ul class="navbar-nav text-center bg">
-                        <li class="nav-item mb-4">
-                            <a href="#" class="nav-link">
-                                HOME
-                            </a>
-                        </li>
-
-                        <li class="nav-item mb-4">
-                            <a href="#" class="nav-link">
-                                ABOUT
-                            </a>
-                        </li>
-
-                        <li class="nav-item mb-4">
-                            <a href="#" class="nav-link">
-                                RESUME
-                            </a>
-                        </li>
-
-                        <li class="nav-item mb-4">
-                            <a href="#" class="nav-link">
-                                CONTACT
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                HIRE
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="col-md-5" class="mx-auto" data-aos="zoom-in">
+                        <img src="plugins/img/IMG_2841.JPG" id="img" width="100%" alt="" />
+                    </div>
                 </div>
             </div>
-          </div>
+            <div class="container" id="About">
+                <h5 class="text-light"> ABOUT <span class="line"></span></h5>
+
+                
+                <div class="row p-2" id="about">
+                    <div class="col-md-4">
+                        <h3 class="text-light" data-aos="zoom-in">Learn About Me</h3>
+                        <img src="plugins/img/IMG_2841.JPG" data-aos="zoom-in-up" width="100%" alt="" />
+                    </div>
+
+                    <div class="col-md-8 text-light justify-content-center" data-aos="slide-left">
+                        <div clas="text-bg">
+                            <h5> 
+                            <strong class="text-success"> I Design and Develope Responsive Web site  </strong>
+                                    <p>
+                                        I'm a passionate and self-starting Front-End Developer
+                                        building stable E-Commerce websites and apps in fast-paced, collaborative 
+                                        environments. Highly skilled in HTML/CSS/JavaScript/JQuery..... 
+                                    </p>
+                            <h5>
+                                        <!-- About Row -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="abt text-light">
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                Birthday: <small>7<sup>th</sup> Dec</small>
+                                            </p>
+
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                Phone: <small>08152715095</small>
+                                            </p>
+
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                Country: <small>Nigeria</small>
+                                            </p>
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                City: <small>Lagos</small>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="abt text-light">
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                Age: <small>20</small>
+                                            </p>
+
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                Degree: <small>National Diploma</small>
+                                            </p>
+
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                Email: <small>Olaemma4213@gmail.com</small>
+                                            </p>
+
+                                            <p class="abtext">
+                                                <i class="fas fa-angle-double-right text-success"></i>
+                                                Freelance: <small>Available</small>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <h5> 
+                                    <p>
+                                        The role is responsible for designingg, coding and modifying websites, from layout
+                                        to function and according to clients specifications. Strive to create visually appealing 
+                                        sites that feature user-friendly design and clear navigation.
+                                    </p>
+                                <h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg p-3 mt-3" id="skills">
+                        <!-- Skills Section -->
+                        <h5 class="text-light">SKILLS <span class="line"></span></h5>
+
+                    <div class="row bg p-2 m-2">
+                        <div class="col-md-6" data-aos="fade-down">
+                            <p class="sk text-light">HTML</p>
+                                <div class="progress bg-dark" style="height: 15px;">
+                                    <div class="progress-bar bg-success" style="width: 85%;"> 85%</div>
+                                </div>
+
+                            <p class="sk text-light">CSS</p>
+                                <div class="progress bg-dark" style="height: 15px;">
+                                    <div class="progress-bar bg-success" style="width: 75%;">75%</div>
+                                </div>
+
+                            <p class="sk text-light">JAVASCRIPT</p>
+                                <div class="progress bg-dark" style="height: 15px;">
+                                    <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                                </div>
+                        </div>
+
+                        <div class="col-md-6" data-aos="fade-up">
+                            <p class="sk text-light">GFRAPHICS</p>
+                                <div class="progress bg-dark" style="height: 15px;">
+                                    <div class="progress-bar bg-success" style="width: 88%;">88%</div>
+                                </div>
+
+                            <p class="sk text-light">JQUERY</p>
+                                <div class="progress bg-dark" style="height: 15px;">
+                                    <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                                </div>
+
+                            <p class="sk text-light">REACT & REACT NATIVE</p>
+                                <div class="progress bg-dark" style="height: 15px;">
+                                    <div class="progress-bar bg-success" style="width: 85%;">85%</div>
+                                </div>
+                        </div>
+                    </div>
+                
+
+
+                    <h4 class="text-light mt-2">INTRESTS <span class="line"></span></h4>
+
+                        <!-- Intrests Section -->
+                <!-- <div class="p-3">  -->
+                    <div class="row">
+
+                        <div class="col-md-4" data-aos="fade-left">
+                            <div class="card card-black p-4 text-light mt-2" data-aos="zoom-in">
+                                <i class="fas fa-desktop text-danger fa-3"></i> Web Development
+                            </div>
+
+                            <div class="card card-black p-4 text-light mt-2" data-aos="fade-up">
+                                <i class="fas fa-shield-alt text-warning"></i> Cyber Security
+                            </div>
+
+                            <div class="card p-4 text-light card-black mt-2" data-aos="zoom-in">
+                                <i class="fas fa-mobile text-info"></i> Mobile Development
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-md-4 text-light" data-aos="zoom-in">
+                            <div class="card p-4 card-black mt-2" data-aos="fade-down">
+                                <i class="fab fa-line text-primary"></i> Digital Marketing
+                            </div>
+
+                            <div class="card p-4 text-light card-black mt-2" data-aos="zoom-in">
+                                <i class="fas fa-code text-info"></i> Software Development
+                            </div>
+
+                            <div class="card p-4 text-light card-black mt-2" data-aos="zoom-out">
+                                <i class="fas fa-edit text-success"></i> Graphics Design
+                            </div>
+                        </div>
+
+                        <div class="col-md-4" data-aos="fade-right">
+                            <div class="card p-4 text-light card-black mt-2" data-aos="fade-left">
+                                <i class="fas fa-plug text-primary"></i> Networking
+                            </div>
+
+                            <div class="card p-4 text-light card-black mt-2" data-aos="zoom-out">
+                                <i class="fab fa-python text-success"></i> Python
+                            </div>
+
+                            <div class="card p-4 text-light card-black mt-2" data-aos="fade-right">
+                                <i class="fas fa-database text-danger"></i> Data Analysis
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg container" id="service">
+                <h5 class="text-light mt-2">SERVICES <span class="line"></span></h5>                
+                <h3 class="text-light" data-aos="zoom-in">MY SERVICES</h3>
+
+                <!-- Services Section -->
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <div class="card bg mb-2 text-center">
+                            <div class="card-body text-center">
+                                <p class="card-icon text-success rounded-circle bg text-center p-2">
+                                    <i class="fas fa-smile"></i>
+                                </p>
+                                <p class="card-title text-center text-light">
+                                    12
+                                </p>
+                                <small class="text-light font-weight-bold">Happy Client</small>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card bg mb-2 text-center">
+                            <div class="card-body text-center">
+                                <p class="card-icon text-success rounded-circle bg text-center p-2">
+                                    <i class="fas fa-heart-break"></i>
+                                </p>
+                                <p class="card-title text-center text-light">
+                                    12
+                                </p>
+                                <small class="text-light font-weight-bold">Happy Client</small>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card bg mb-2 text-center">
+                            <div class="card-body text-center">
+                                <p class="card-icon text-success rounded-circle bg text-center p-2">
+                                    <i class="fas fa-smile"></i>
+                                </p>
+                                <p class="card-title text-center text-light">
+                                    12
+                                </p>
+                                <small class="text-light font-weight-bold">Happy Client</small>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card bg mb-2 text-center">
+                            <div class="card-body text-center">
+                                <p class="card-icon text-success rounded-circle bg text-center p-2">
+                                    <i class="fas fa-smile"></i>
+                                </p>
+                                <p class="card-title text-center text-light">
+                                    12
+                                </p>
+                                <small class="text-light font-weight-bold">Happy Client</small>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
-    <script src="plugins/aos/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-</body>
+        <div class="modal" id="popup-menu">
+            <div class="modal-dialog bg">
+                <div class="modal-content bg">
+                    <div class="modal-header bg">
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body bg">
+                        <ul class="navbar-nav text-center bg">
+                            <li class="nav-item mb-4">
+                                <a href="#" class="nav-link">
+                                    HOME
+                                </a>
+                            </li>
+
+                            <li class="nav-item mb-4">
+                                <a href="#About" class="nav-link">
+                                    ABOUT
+                                </a>
+                            </li>
+
+                            <li class="nav-item mb-4">
+                                <a href="#skills" class="nav-link">
+                                    SKILLS
+                                </a>
+                            </li>
+
+                            <li class="nav-item mb-4">
+                                <a href="#service" class="nav-link">
+                                    SERVICES
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    CONTACT
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="plugins/aos/aos.js"></script>
+        <script src="plugins/jquery-3.4.1.slim.min.js"></script>
+        <script src="plugins/popper.min.js"></script>
+        <script src="plugins/bootstrap.min.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>

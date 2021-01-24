@@ -2,8 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.694);   
-    background-image: url(img/Trafic.PNG);
+   
+    background: url(img/me.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
@@ -14,26 +14,40 @@ body{
 .close{
     float: right;
 }
+a{color: white;}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
 .cont{
-    background: rgba(0, 0, 0, 0.886);   
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.811);
+    height: 100%;
     width: 100%;
     overflow-x: hidden;
 }
+#popup-menu{
+    background-color: rgba(0, 0, 0, 0.633);
+}
 .bg{
-    background-color: rgba(0, 0, 0, 0.619);
+    background-color: rgb(0, 0, 0.856);
+}
+#menu{
+    background-color: rgba(0, 0, 0, 0.633);
+    overflow: hidden;
+}
+#menu-bg{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+.text-bg{
+    background-color: rgba(0, 0, 0, 0.833);
+
 }
 .nav-item .ic{
     color: white;
-    /* font-weight: bolder; */
-    padding: 6px 14px;
-  }
+}
 .under_line{
     border-bottom: solid green;
     font-size: medium;
-}
-#img{
-    filter: grayscale(1);
 }
 .text{
     font-size: x-large;
@@ -41,6 +55,12 @@ body{
 }
 .name{
     font-size: 9vmin;
+}
+.nav-name{
+    font-size: 5vmin;
+}
+#img{
+    filter: grayscale(1);
 }
 .col-md-7{
     padding-top: 70px;
@@ -58,7 +78,8 @@ body{
 .icon{
     background-color: rgba(18, 17, 17, 0.948);
     padding: 10px;
-    border-radius: 1000px;
+    /* height: 30px; */
+    border-radius: 5px;
     display: inline-block;
     margin-top: 10px;
     margin-right: 5px;
@@ -80,11 +101,14 @@ body{
         display: none;
         position: absolute;
     }
+    .name{
+        display: none;
+    }
 }
 @media screen and (min-width: 700px){
-    .menu{
+   
+    #mobile-nav{
         display: none;
-        position: absolute;
     }
 }
 .modal-header{
@@ -96,4 +120,50 @@ body{
     height: 2px;
     /* padding: 3px; */
     background-color: green;
+}
+strong{
+    display: block;
+    /* color: rgb(28, 138, 28); */
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+h5 p{
+    font-size: large;
+    font-weight: lighter;
+}
+
+.abtext {
+    font-size: large;
+    font-weight: bold;
+}
+#skills{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+#about{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+.card-black{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+.sk{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+p.card-icon i{  
+    font-size: xx-large;
+}
+p.card-icon{
+    background: rgba(14, 14, 14, 0.701);
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    display: inline-block;
+}
+p.card-title{
+    font-size:  40px;
+    font-weight: bolder;
 }
